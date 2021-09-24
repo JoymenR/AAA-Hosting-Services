@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.lithan.liferay.service.service.CustomerLocalService" class="com.lithan.liferay.service.service.impl.CustomerLocalServiceImpl" />
+	<bean id="com.lithan.liferay.service.service.CustomerService" class="com.lithan.liferay.service.service.impl.CustomerServiceImpl" />
+	<bean id="com.lithan.liferay.service.service.persistence.CustomerPersistence" class="com.lithan.liferay.service.service.persistence.CustomerPersistenceImpl" parent="basePersistence" />
+	<bean id="com.lithan.liferay.service.service.ServicLocalService" class="com.lithan.liferay.service.service.impl.ServicLocalServiceImpl" />
+	<bean id="com.lithan.liferay.service.service.ServicService" class="com.lithan.liferay.service.service.impl.ServicServiceImpl" />
+	<bean id="com.lithan.liferay.service.service.persistence.ServicPersistence" class="com.lithan.liferay.service.service.persistence.ServicPersistenceImpl" parent="basePersistence" />
+</beans>

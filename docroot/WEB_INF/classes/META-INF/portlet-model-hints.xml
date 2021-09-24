@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.lithan.liferay.service.model.Customer">
+		<field name="uuid" type="String" />
+		<field name="customerId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="servicId" type="long" />
+		<field name="name" type="String" />
+		<field name="email" type="String" />
+		<field name="address" type="String" />
+		<field name="nicNumber" type="String" />
+		<field name="contactNumber" type="String" />
+	</model>
+	<model name="com.lithan.liferay.service.model.Servic">
+		<field name="uuid" type="String" />
+		<field name="servicId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="servicName" type="String" />
+		<field name="servicPrice" type="String" />
+		<field name="servicDescription" type="String" />
+	</model>
+</model-hints>
